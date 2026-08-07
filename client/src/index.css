@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -82,3 +83,6 @@
   display: flex;
   column-gap: 1rem;
 }
+=======
+@import "tailwindcss";
+>>>>>>> 2be10ba (add navbar)

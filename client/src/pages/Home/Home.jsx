@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 const Home = () => {
@@ -7,3 +8,14 @@ const Home = () => {
 }
 
 export default Home
+=======
+const Home = () => {
+  return (
+    <div>
+      <h1>Home Page</h1>
+    </div>
+  );
+};
+
+export default Home;
+>>>>>>> 2be10ba (add navbar)
