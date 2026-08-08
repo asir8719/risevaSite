@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-const App = () => {}
-
-export default App
-=======
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/common/layout/Navbar";
@@ -36,4 +31,3 @@ function App() {
 }
 
 export default App;
->>>>>>> 2be10ba (add navbar)

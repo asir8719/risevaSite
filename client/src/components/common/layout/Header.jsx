@@ -4,11 +4,11 @@ import risevaLogo from "@/assets/risevaLogo.jpeg";
 
 const Header = () => {
   return (
-    <header className="header p-3 bg-amber-500">
+    <header className="header">
       <div className="header-inner">
-        <Link to="/" className="logo">
+        {/* <Link to="/" className="logo">
           <img src={risevaLogo} alt="Logo" width={40} />
-        </Link>
+        </Link> */}
         <Navbar />
       </div>
     </header>

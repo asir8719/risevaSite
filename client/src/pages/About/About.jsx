@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const About = () => {
-  return (
-    <div>About</div>
-  )
-}
-
-export default About
-=======
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto py-20">
@@ -25,4 +14,3 @@ const About = () => {
 };
 
 export default About;
->>>>>>> 2be10ba (add navbar)

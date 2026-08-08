@@ -1,21 +1,10 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
-
-export default Home
-=======
+import imghero1 from "../../assets/imghero1.webp"
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <img src={imghero1} alt="imghero1" />
     </div>
   );
 };
 
 export default Home;
->>>>>>> 2be10ba (add navbar)

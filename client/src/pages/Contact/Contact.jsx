@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
-}
-
-export default Contact
-=======
 const Contact = () => {
   return (
     <div className="max-w-7xl mx-auto py-20">
@@ -28,4 +17,3 @@ const Contact = () => {
 };
 
 export default Contact;
->>>>>>> 2be10ba (add navbar)
