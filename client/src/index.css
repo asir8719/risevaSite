@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
 /* @import "tw-animate-css"; */
 /* @import "shadcn/tailwind.css"; */
 /* @import "@fontsource-variable/geist"; */
@@ -117,3 +117,11 @@ body {
 .footer-links ul li a {
   padding: 12px 16px;
 } */
+
+.home-anchor-bar ul li a {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 0.2rem;
+  color: white;
+}

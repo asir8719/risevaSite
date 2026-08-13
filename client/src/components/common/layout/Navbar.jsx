@@ -10,7 +10,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Riseva" className="h-5" />
+          <img src={logo} alt="Riseva" className="h-6" />
           <h1 className="text-3xl font-bold">Riseva</h1>
         </NavLink>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
             <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
-            <Button className="bg-white text-purple-500 w-25 h-11" variant="default">Button</Button>
+            <Button className="bg-white text-purple-500 w-25 h-11 cursor-pointer" variant="default">Button</Button>
           </li>
           <li>
             <Search />
