@@ -1,15 +1,32 @@
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto py-20">
-      <h1 className="text-5xl font-bold mb-6">
-        About Us
-      </h1>
+    <section className="bg-[#18233d] min-h-[430px] flex items-center justify-center">
+      <div className="max-w-5xl mx-auto px-6 text-center">
 
-      <p className="text-gray-600 text-lg leading-8">
-        Riseva is a software company focused on delivering modern web,
-        mobile, AI, and cloud solutions for businesses worldwide.
-      </p>
-    </div>
+        {/* Small Heading */}
+        <p className="text-[#08b8d4] font-semibold text-sm tracking-wide mb-5">
+          ABOUT US
+        </p>
+
+        {/* Main Heading */}
+        <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight mb-6">
+          Building the Future,{" "}
+          <span className="text-[#08b8d4]">
+            One
+            <br />
+            Line at a Time
+          </span>
+        </h1>
+
+        {/* Description */}
+        <p className="text-gray-300 text-lg md:text-xl leading-8 max-w-4xl mx-auto">
+          Riseva is a founder-led custom software development startup on a
+          mission to help businesses transform their ideas into powerful
+          digital solutions.
+        </p>
+
+      </div>
+    </section>
   );
 };
 
