@@ -1,5 +1,5 @@
 import risevaLogo from "@/assets/risevaLogo.jpeg"
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa"
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa"
 import { FaXTwitter } from "react-icons/fa6"
 
 const Footer = () => {
@@ -54,13 +54,13 @@ const Footer = () => {
           <ul className="flex justify-between items-center font-medium text-lg">
             <div className="flex gap-x-12 items-center">
               <div>
-                <li><a href="">+919608376930</a></li>
-                <li><a href="">+916205206013</a></li>
+                <li><a href="tel:+919608376930">+919608376930</a></li>
+                <li><a href="tel:+916205206013">+916205206013</a></li>
               </div>
-              <li><a href="">riseva@support.com</a></li>
-              <li className="border p-3 rounded-full"><a href=""><FaFacebookF /></a></li>
+              <li><a href="mailto:riseva.tech5587@gmail.com">riseva.tech5587@gmail.com</a></li>
+              <li className="border p-3 rounded-full"><a href="https://www.instagram.com/risevaofficial?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
               <li className="border p-3 rounded-full"><a href=""><FaXTwitter /></a></li>
-              <li className="border p-3 rounded-full"><a href=""><FaLinkedinIn /></a></li>
+              <li className="border p-3 rounded-full"><a href="https://www.linkedin.com/in/riseva-tech-6421053a8/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></li>
             </div>
             <li><a href="">Privacy Policy</a></li>
           </ul>
