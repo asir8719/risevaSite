@@ -8,6 +8,7 @@ import Services from './pages/Services/Services.jsx'
 import About from './pages/About/About.jsx'
 import Testimonials from './pages/Testimonials/Testimonials.jsx'
 import Contact from './pages/Contact/Contact.jsx'
+import Technologies from './pages/Technologies/Technologies.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,8 @@ const router = createBrowserRouter([
       { path: 'services', element: <Services /> },
       { path: 'testimonials', element: <Testimonials /> },
       { path: 'contact', element: <Contact /> },
+      { path: 'technologies', element: <Technologies /> },
+
     ],
   },
 ])
