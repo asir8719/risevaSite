@@ -29,22 +29,17 @@ const Navbar = () => {
           </li>
 
           <li>
-            <NavLink to="/team">Team</NavLink>
+            <NavLink
+              to="/contact"
+              className="inline-flex h-11 w-24 items-center 
+              justify-center rounded-lg bg-white text-purple-500"
+            >
+              Contact
+            </NavLink>
           </li>
-
-          <li>
-            <NavLink to="/careers">Careers</NavLink>
-          </li>
-
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-          <li>
-            <Button className="bg-white text-purple-500 w-25 h-11 cursor-pointer" variant="default">Button</Button>
-          </li>
-          <li>
+          {/* <li>
             <Search />
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
