@@ -285,10 +285,9 @@ const Technologies = () => {
                 onClick={() => setActiveCategory(category)}
                 className={`px-5 py-2.5 rounded-full whitespace-nowrap
                   text-sm font-medium transition
-                  ${
-                    activeCategory === category
-                      ? "bg-gray-900 text-white"
-                      : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
+                  ${activeCategory === category
+                    ? "bg-gray-900 text-white"
+                    : "bg-white text-gray-600 border border-gray-200 hover:border-gray-400"
                   }`}
               >
                 {category}
@@ -530,8 +529,8 @@ const Technologies = () => {
       {selectedTech && (
 
         <div
-          className="fixed inset-0 z-50 bg-black/50
-                     flex items-center justify-center p-5"
+          className="fixed inset-0 z-[9999] bg-black/50
+             flex items-center justify-center p-5"
           onClick={() => setSelectedTech(null)}
         >
 
