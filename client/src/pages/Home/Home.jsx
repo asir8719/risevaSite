@@ -5,7 +5,7 @@ import contactImg from "../../assets/home-contact-img.webp";
 import purplecircleicon1 from "../../assets/purple-circle-icon-1.svg";
 import purplecircleicon2 from "../../assets/purple-circle-icon-2.svg";
 import purplecircleicon3 from "../../assets/purple-circle-icon-3.svg";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
