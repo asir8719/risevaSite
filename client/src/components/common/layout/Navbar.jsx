@@ -15,7 +15,7 @@ const Navbar = () => {
         </NavLink>
 
         {/* Menu */}
-        <ul className="flex flex-wrap items-center gap-8 font-medium text-white">
+        <ul className="flex flex-wrap items-center gap-16 font-medium text-white">
           <li>
             <NavLink to="/about">About</NavLink>
           </li>
@@ -26,6 +26,18 @@ const Navbar = () => {
 
           <li>
             <NavLink to="/technologies">Technologies</NavLink>
+          </li>
+                {/* Team */}
+          <li>
+            <NavLink to="/team">Team</NavLink>
+          </li>
+           <li>
+         <NavLink to="/clients">Our Clients</NavLink>
+         </li>
+
+          {/* Careers */}
+          <li>
+            <NavLink to="/careers">Careers</NavLink>
           </li>
 
           <li>
