@@ -5,281 +5,79 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="site-footer pt-20 bg-[#202022] text-white">
-
-      {/* Main Footer */}
-      <div className="footer-inner flex mx-20">
-
-        {/* Logo and Description */}
-        <div className="flex-[2] px-4 border-r border-gray-600">
-          <aside>
+    <footer className="site-footer bg-[#202022] pt-14 text-white sm:pt-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid gap-8 border-b border-gray-600 pb-10 lg:grid-cols-[1.5fr_0.8fr_0.9fr] lg:gap-10">
+          <div className="border-b border-gray-600 pb-6 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-8">
             <figure>
-              <img
-                src={risevaLogo}
-                alt="Riseva Logo"
-                className="h-20"
-              />
+              <img src={risevaLogo} alt="Riseva Logo" className="h-16 sm:h-20" />
             </figure>
-          </aside>
 
-          <aside className="pt-8">
-            <p className="text-xl leading-relaxed">
+            <p className="mt-6 text-base leading-relaxed text-gray-200 sm:text-xl">
               Building digital experiences that help businesses grow, innovate,
               and move forward. We combine technology, creativity, and
               thoughtful design to turn ideas into impactful digital solutions.
             </p>
-          </aside>
-        </div>
+          </div>
 
-        {/* Main Links */}
-        <div className="flex-1 px-6 border-r border-gray-600">
-          <div className="footer-links">
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-4">
-
+          <div className="border-b border-gray-600 pb-6 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-8">
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-4 text-sm sm:text-base">
               <li>
-                <NavLink
-                  to="/about"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  About
-                </NavLink>
+                <NavLink to="/about" className="transition-colors hover:text-purple-400">About</NavLink>
               </li>
-
               <li>
-                <NavLink
-                  to="/services"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Services
-                </NavLink>
+                <NavLink to="/services" className="transition-colors hover:text-purple-400">Services</NavLink>
               </li>
-
               <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Technologies
-                </NavLink>
+                <NavLink to="/technologies" className="transition-colors hover:text-purple-400">Technologies</NavLink>
               </li>
-
               <li>
-                <NavLink
-                  to="/team"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Team
-                </NavLink>
+                <NavLink to="/team" className="transition-colors hover:text-purple-400">Team</NavLink>
               </li>
-
               <li>
-                <NavLink
-                  to="/careers"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Careers
-                </NavLink>
+                <NavLink to="/careers" className="transition-colors hover:text-purple-400">Careers</NavLink>
               </li>
-
               <li>
-                <NavLink
-                  to="/contact"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Contact
-                </NavLink>
+                <NavLink to="/contact" className="transition-colors hover:text-purple-400">Contact</NavLink>
               </li>
+            </ul>
+          </div>
 
+          <div>
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-4 text-sm sm:text-base">
+              <li><NavLink to="/technologies" className="transition-colors hover:text-purple-400">Next.js</NavLink></li>
+              <li><NavLink to="/technologies" className="transition-colors hover:text-purple-400">React</NavLink></li>
+              <li><NavLink to="/technologies" className="transition-colors hover:text-purple-400">Laravel</NavLink></li>
+              <li><NavLink to="/technologies" className="transition-colors hover:text-purple-400">Docker</NavLink></li>
+              <li><NavLink to="/technologies" className="transition-colors hover:text-purple-400">Flutter</NavLink></li>
+              <li><NavLink to="/technologies" className="transition-colors hover:text-purple-400">Java</NavLink></li>
+              <li><NavLink to="/services" className="transition-colors hover:text-purple-400">WordPress</NavLink></li>
+              <li><NavLink to="/services" className="transition-colors hover:text-purple-400">Freelance</NavLink></li>
+              <li><NavLink to="/services" className="transition-colors hover:text-purple-400">Training Certificate</NavLink></li>
+              <li><NavLink to="/services" className="transition-colors hover:text-purple-400">Mentorship</NavLink></li>
+              <li><NavLink to="/services" className="transition-colors hover:text-purple-400">Career Guidance</NavLink></li>
             </ul>
           </div>
         </div>
 
-        {/* Services / Technologies */}
-        <div className="flex-1 px-6">
-          <div className="footer-links">
-            <ul className="grid grid-cols-2 gap-x-8 gap-y-4">
-
-              <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Next.js
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  React
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Laravel
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Docker
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Flutter
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/technologies"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Java
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/services"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  WordPress
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/services"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Freelance
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/services"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Training Certificate
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/services"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Mentorship
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
-                  to="/services"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  Career Guidance
-                </NavLink>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-      {/* Bottom Footer */}
-      <div className="footer-lower mt-12">
-        <div className="px-6 border-t border-gray-600 mx-16 py-8">
-
-          <div className="flex justify-between items-center font-medium text-lg">
-
-            {/* Contact Information */}
-            <div className="flex gap-x-12 items-center">
-
-              {/* Phone */}
-              <div>
-                <a
-                  href="tel:+919608376930"
-                  className="block hover:text-purple-400 transition-colors"
-                >
-                  +91 9608376930
-                </a>
-
-                <a
-                  href="tel:+916205206013"
-                  className="block hover:text-purple-400 transition-colors"
-                >
-                  +91 6205206013
-                </a>
-              </div>
-
-              {/* Email */}
-              <a
-                href="mailto:riseva.tech5587@gmail.com"
-                className="hover:text-purple-400 transition-colors"
-              >
-                riseva.tech5587@gmail.com
-              </a>
-
-              {/* Instagram */}
-              <a
-                href="https://www.instagram.com/risevaofficial?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border border-gray-500 p-3 rounded-full hover:bg-purple-600 hover:border-purple-600 transition-all"
-              >
-                <FaInstagram />
-              </a>
-
-              {/* Twitter / X */}
-              <a
-                href="#"
-                className="border border-gray-500 p-3 rounded-full hover:bg-purple-600 hover:border-purple-600 transition-all"
-              >
-                <FaXTwitter />
-              </a>
-
-              {/* LinkedIn */}
-              <a
-                href="https://www.linkedin.com/in/riseva-tech-6421053a8/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border border-gray-500 p-3 rounded-full hover:bg-purple-600 hover:border-purple-600 transition-all"
-              >
-                <FaLinkedinIn />
-              </a>
-
+        <div className="py-6 sm:py-8">
+          <div className="flex flex-col gap-6 text-sm font-medium sm:text-base lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-8 sm:gap-y-3">
+              <a href="tel:+919608376930" className="transition-colors hover:text-purple-400">+91 9608376930</a>
+              <a href="tel:+916205206013" className="transition-colors hover:text-purple-400">+91 6205206013</a>
+              <a href="mailto:riseva.tech5587@gmail.com" className="transition-colors hover:text-purple-400">riseva.tech5587@gmail.com</a>
             </div>
 
-            {/* Privacy Policy */}
-            <NavLink
-              to="/privacy-policy"
-              className="hover:text-purple-400 transition-colors"
-            >
-              Privacy Policy
-            </NavLink>
+            <div className="flex items-center gap-3 sm:gap-4">
+              <a href="https://www.instagram.com/risevaofficial?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-500 transition-all hover:border-purple-600 hover:bg-purple-600"> <FaInstagram /> </a>
+              <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-500 transition-all hover:border-purple-600 hover:bg-purple-600"> <FaXTwitter /> </a>
+              <a href="https://www.linkedin.com/in/riseva-tech-6421053a8/" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-500 transition-all hover:border-purple-600 hover:bg-purple-600"> <FaLinkedinIn /> </a>
+            </div>
 
+            <NavLink to="/privacy-policy" className="transition-colors hover:text-purple-400">Privacy Policy</NavLink>
           </div>
         </div>
       </div>
-
     </footer>
   );
 };

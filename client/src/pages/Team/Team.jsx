@@ -9,7 +9,7 @@ const teamMembers = [
     },
     {
         name: "Asir Khan",
-        role: "Web & Digital Marketing",
+        role: "Web & App Developer",
     },
     {
         name: "Subham Kumar",

@@ -58,7 +58,7 @@ const Services = () => {
       </div>
 
       {/* Sticky anchor bar */}
-      <div className="sticky top-20 z-20 bg-[#6366f1]">
+      <div className="sticky top-0 z-20 bg-[#6366f1]">
         <section className="home-anchor-bar">
           <ul className="flex justify-center gap-8 overflow-x-auto px-4">
             {serviceCategories.map((category) => (
@@ -74,21 +74,21 @@ const Services = () => {
 
       {/* Feature banner */}
       <div
-        className="flex h-96 w-full items-center justify-center bg-cover bg-no-repeat"
+        className="flex min-h-[22rem] w-full items-center justify-center bg-cover bg-center px-4 py-10 sm:px-6 lg:h-96 lg:px-8"
         style={{ backgroundImage: `url(${dataTransferAbstract})` }}
       >
-        <div className="flex h-4/5 w-[97%] gap-x-32 rounded-3xl border border-white/20 bg-white/10 px-24 py-16 backdrop-blur-xl">
-          <div className="flex flex-col gap-y-6">
-            <h2 className="text-4xl font-bold text-white">
+        <div className="flex w-full max-w-6xl flex-col gap-6 rounded-3xl border border-white/20 bg-white/10 p-6 text-white backdrop-blur-xl md:flex-row md:items-center md:justify-between md:p-10 xl:px-14">
+          <div className="flex flex-col gap-y-4 md:max-w-3xl">
+            <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl">
               Full-stack solutions from strategy to launch
             </h2>
-            <p className="text-xl font-light text-white/90">
+            <p className="text-base font-light text-white/90 sm:text-lg lg:text-xl">
               Whether you need a new product, a platform upgrade, or a team of
               skilled developers — we deliver end-to-end services that drive
               measurable business outcomes.
             </p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center justify-center md:justify-end">
             <Link to="/contact">
               <Button variant="outline" size="lg">
                 START A PROJECT
