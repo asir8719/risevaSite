@@ -11,6 +11,7 @@ import Careers from "./pages/Careers/Careers";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 import Clients from "./pages/Clients/Clients";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/clients" element={<Clients />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
 
       </Routes>
     </BrowserRouter>
