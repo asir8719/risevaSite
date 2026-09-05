@@ -28,7 +28,6 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-
       </Routes>
     </BrowserRouter>
   );

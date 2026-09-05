@@ -10,6 +10,7 @@ import {
 
 // First client app screenshot
 import cuetApp from "../../assets/cuet-app.png";
+import { Link } from "react-router-dom";
 
 const clients = [
     {
@@ -220,13 +221,13 @@ const Clients = () => {
                         business to the next level.
                     </p>
 
-                    <a
-                        href="/contact"
+                    <Link
+                        to="/contact"
                         className="inline-flex mt-8 items-center gap-2 rounded-xl bg-white px-7 py-4 font-bold text-purple-600 transition hover:scale-105"
                     >
                         Start Your Project
                         <ArrowUpRight className="w-5 h-5" />
-                    </a>
+                    </Link>
 
                 </div>
 
